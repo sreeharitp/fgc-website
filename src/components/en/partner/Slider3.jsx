@@ -35,8 +35,8 @@ export default function Slider3() {
         <SwiperSlide>
           <div class="grid grid-cols-2 gap-6">
             {partners.map((items) => (
-              <Image src={items} alt="partners" className="w-auto m-5" />
-            ))}
+              <Image src={items} key={idx} alt="partners" className="w-auto m-5" />
+              ))}
           </div>
         </SwiperSlide>
         <SwiperSlide>
