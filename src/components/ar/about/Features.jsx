@@ -41,6 +41,7 @@ const Features = () => {
             <Image
               src={items.icon}
               height={70}
+              alt="icons"
               width={70}
               className="3xl:h-[115px] 3xl:w-[115px] 3xl:-mr-5"
             />

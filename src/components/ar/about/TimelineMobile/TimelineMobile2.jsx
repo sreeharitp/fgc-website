@@ -42,6 +42,7 @@ const TimelineMobile2 = ({ timeline }) => {
               src={items.img}
               height={250}
               width={250}
+              alt="timeline-img"
               className="mr-auto mt-10" 
             />
             <h6 className="text-[18px] font-medium mb-4 mt-5">{items.title}</h6>

@@ -26,6 +26,7 @@ const TimelineWeb = ({ timeline }) => {
               src={items.img}
               height={250}
               width={250}
+              alt="timeline-img"
               className="m-auto mt-10"
             />
           </div>
