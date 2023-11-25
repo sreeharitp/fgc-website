@@ -1,0 +1,37 @@
+input,
+select,
+textarea {
+    width: 100%;
+    border: 1px solid #D6D6D6;
+    border-radius: 5px;
+    outline: 0;
+    box-shadow: none;
+    font-size: 16px;
+    padding: 0.35rem 0.5rem;
+}
+
+input,
+select {
+    height: 33px;
+}
+
+
+label {
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+@media(min-width:1600px){
+   label{
+    font-size: 16px;
+   }
+}
+
+input::placeholder,
+select::placeholder,
+textarea::placeholder {
+    font-size: 16px;
+    color: #4D4D4D;
+    font-weight: 500;
+}

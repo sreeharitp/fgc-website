@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Mada:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: GeneralSans;
+}
+
+.linear-gradient {
+  background: linear-gradient(180deg, #FFE4E0 25%, #FFF 100%);
+}
+
+p {
+  line-height: 1.4;
+}
+
+
+
+.trans {
+  transition: all 0.3s ease-in-out;
+}
+
+.font-mada {
+  font-family: Mada Regular;
+}
+
+.font-gsans {
+  font-family: GeneralSans;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: black !important;
+
+}
+
+.swiper-pagination-bullet {
+  height: 15px !important;
+  width: 15px !important;
+
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 8px) !important;
+}
+
+.dir-rtl {
+  direction: rtl;
+}
+
+.dir-ltr {
+  direction: ltr;
+}
+.swiper-pagination{
+  position: relative !important;
+  margin-top: 30px;
+}
+@layer components {
+
+  .box-width {
+    @apply xl:max-w-[1480px] w-full m-auto;
+  }
+
+  .padding-x {
+    @apply lg:px-24 px-6;
+  }
+
+  .padding-y {
+    @apply lg:py-24 py-12;
+  }
+
+  .section-padding {
+    @apply lg:py-24 py-20;
+  }
+
+  .padding-top {
+    @apply lg:pt-24 pt-12;
+  }
+
+  .padding-bottom {
+    @apply lg:pb-24 pb-12;
+  }
+
+}

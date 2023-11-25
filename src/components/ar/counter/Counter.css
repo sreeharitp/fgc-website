@@ -1,0 +1,41 @@
+.counter {
+    border-left: 2px solid #D6D6D6;
+}
+
+.counter:last-child {
+    border-left: 0;
+}
+
+.counter:first-child {
+    justify-content: start;
+}
+
+@media(max-width:991px) {
+
+    .counter:nth-child(3) {
+        border-left: 0;
+    }
+
+    .counter:nth-child(4) {
+        justify-content: start;
+    }
+}
+
+@media(max-width:576px) {
+
+    .counter:nth-child(even) {
+        border-left: 0;
+    }
+
+    .counter:nth-child(3) {
+        border-left: 2px solid #D6D6D6;
+    }
+
+    .counter:nth-child(odd) {
+        justify-content: start;
+    }
+
+    .counter:nth-child(4) {
+        justify-content: center;
+    }
+}
