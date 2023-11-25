@@ -73,7 +73,7 @@ const Solution = () => {
             >
               <div className="p-5 flex flex-col gap-3">
                 <Image src={items.img} alt="icon" />
-                <h5 className="text-[24px] font-medium">{items.title}</h5>
+                <h5 className="text-[20px] 3xl:text-[24px] font-medium">{items.title}</h5>
                 <p>{items.desc}</p>
               </div>
               <div className="p-4 border-t border-[#D6D6D6] leading-4">

@@ -46,7 +46,9 @@ p {
   width: 15px !important;
 
 }
-.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 8px) !important;
 }
 
@@ -57,10 +59,13 @@ p {
 .dir-ltr {
   direction: ltr;
 }
-.swiper-pagination{
+
+.swiper-pagination {
   position: relative !important;
   margin-top: 30px;
 }
+
+
 @layer components {
 
   .box-width {
