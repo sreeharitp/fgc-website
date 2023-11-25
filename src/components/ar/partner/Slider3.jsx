@@ -46,7 +46,7 @@ export default function Slider3() {
         </SwiperSlide>
         <SwiperSlide>
           <div class="grid grid-cols-2 gap-6">
-            {partners.map((items) => (
+            {partners.map((items,idx) => (
               <Image
                 src={items}
                 key={idx}
